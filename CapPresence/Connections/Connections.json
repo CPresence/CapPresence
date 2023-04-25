@@ -1,0 +1,44 @@
+{
+  "1dbc93ef-b2eb-457f-b59e-fb10e9e44bbb": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/releases/ase-v3-99-la-only-no-gov/1.0.1622.3206/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://capitolpresence.sharepoint.com": {
+        "dataSources": {
+          "WAR Reports": {
+            "tableName": "74221974-8f36-46c1-a769-264e26473a85"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "WAR Reports"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "1dbc93ef-b2eb-457f-b59e-fb10e9e44bbb"
+  },
+  "5f7eebc7-8697-47f0-aee6-b0fe6e4ca6b1": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/releases/ase-v3-99-la-only-no-gov/1.0.1622.3206/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "5f7eebc7-8697-47f0-aee6-b0fe6e4ca6b1"
+  }
+}
